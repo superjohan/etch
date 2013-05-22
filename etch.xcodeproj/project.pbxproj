@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		903786DF174D2E45002B991F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903786DE174D2E45002B991F /* UIKit.framework */; };
+		903786E1174D2E45002B991F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903786E0174D2E45002B991F /* Foundation.framework */; };
+		903786E3174D2E45002B991F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903786E2174D2E45002B991F /* CoreGraphics.framework */; };
+		903786E9174D2E45002B991F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 903786E7174D2E45002B991F /* InfoPlist.strings */; };
+		903786EB174D2E45002B991F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 903786EA174D2E45002B991F /* main.m */; };
+		903786EF174D2E45002B991F /* AEDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 903786EE174D2E45002B991F /* AEDAppDelegate.m */; };
+		903786F1174D2E45002B991F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 903786F0174D2E45002B991F /* Default.png */; };
+		903786F3174D2E45002B991F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 903786F2174D2E45002B991F /* Default@2x.png */; };
+		903786F5174D2E45002B991F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 903786F4174D2E45002B991F /* Default-568h@2x.png */; };
+		903786F8174D2E45002B991F /* AEDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 903786F7174D2E45002B991F /* AEDViewController.m */; };
+		903786FB174D2E45002B991F /* AEDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903786F9174D2E45002B991F /* AEDViewController_iPhone.xib */; };
+		903786FE174D2E45002B991F /* AEDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903786FC174D2E45002B991F /* AEDViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		903786DB174D2E45002B991F /* etch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = etch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		903786DE174D2E45002B991F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		903786E0174D2E45002B991F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		903786E2174D2E45002B991F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		903786E6174D2E45002B991F /* etch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "etch-Info.plist"; sourceTree = "<group>"; };
+		903786E8174D2E45002B991F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		903786EA174D2E45002B991F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		903786EC174D2E45002B991F /* etch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "etch-Prefix.pch"; sourceTree = "<group>"; };
+		903786ED174D2E45002B991F /* AEDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEDAppDelegate.h; sourceTree = "<group>"; };
+		903786EE174D2E45002B991F /* AEDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEDAppDelegate.m; sourceTree = "<group>"; };
+		903786F0174D2E45002B991F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		903786F2174D2E45002B991F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		903786F4174D2E45002B991F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		903786F6174D2E45002B991F /* AEDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEDViewController.h; sourceTree = "<group>"; };
+		903786F7174D2E45002B991F /* AEDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEDViewController.m; sourceTree = "<group>"; };
+		903786FA174D2E45002B991F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AEDViewController_iPhone.xib; sourceTree = "<group>"; };
+		903786FD174D2E45002B991F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AEDViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		903786D8174D2E45002B991F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903786DF174D2E45002B991F /* UIKit.framework in Frameworks */,
+				903786E1174D2E45002B991F /* Foundation.framework in Frameworks */,
+				903786E3174D2E45002B991F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		903786D2174D2E45002B991F = {
+			isa = PBXGroup;
+			children = (
+				903786E4174D2E45002B991F /* etch */,
+				903786DD174D2E45002B991F /* Frameworks */,
+				903786DC174D2E45002B991F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		903786DC174D2E45002B991F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				903786DB174D2E45002B991F /* etch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		903786DD174D2E45002B991F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				903786DE174D2E45002B991F /* UIKit.framework */,
+				903786E0174D2E45002B991F /* Foundation.framework */,
+				903786E2174D2E45002B991F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		903786E4174D2E45002B991F /* etch */ = {
+			isa = PBXGroup;
+			children = (
+				903786ED174D2E45002B991F /* AEDAppDelegate.h */,
+				903786EE174D2E45002B991F /* AEDAppDelegate.m */,
+				903786F6174D2E45002B991F /* AEDViewController.h */,
+				903786F7174D2E45002B991F /* AEDViewController.m */,
+				903786F9174D2E45002B991F /* AEDViewController_iPhone.xib */,
+				903786FC174D2E45002B991F /* AEDViewController_iPad.xib */,
+				903786E5174D2E45002B991F /* Supporting Files */,
+			);
+			path = etch;
+			sourceTree = "<group>";
+		};
+		903786E5174D2E45002B991F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				903786E6174D2E45002B991F /* etch-Info.plist */,
+				903786E7174D2E45002B991F /* InfoPlist.strings */,
+				903786EA174D2E45002B991F /* main.m */,
+				903786EC174D2E45002B991F /* etch-Prefix.pch */,
+				903786F0174D2E45002B991F /* Default.png */,
+				903786F2174D2E45002B991F /* Default@2x.png */,
+				903786F4174D2E45002B991F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		903786DA174D2E45002B991F /* etch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90378701174D2E45002B991F /* Build configuration list for PBXNativeTarget "etch" */;
+			buildPhases = (
+				903786D7174D2E45002B991F /* Sources */,
+				903786D8174D2E45002B991F /* Frameworks */,
+				903786D9174D2E45002B991F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = etch;
+			productName = etch;
+			productReference = 903786DB174D2E45002B991F /* etch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		903786D3174D2E45002B991F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AED;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Aero Deko";
+			};
+			buildConfigurationList = 903786D6174D2E45002B991F /* Build configuration list for PBXProject "etch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 903786D2174D2E45002B991F;
+			productRefGroup = 903786DC174D2E45002B991F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				903786DA174D2E45002B991F /* etch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		903786D9174D2E45002B991F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903786E9174D2E45002B991F /* InfoPlist.strings in Resources */,
+				903786F1174D2E45002B991F /* Default.png in Resources */,
+				903786F3174D2E45002B991F /* Default@2x.png in Resources */,
+				903786F5174D2E45002B991F /* Default-568h@2x.png in Resources */,
+				903786FB174D2E45002B991F /* AEDViewController_iPhone.xib in Resources */,
+				903786FE174D2E45002B991F /* AEDViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		903786D7174D2E45002B991F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903786EB174D2E45002B991F /* main.m in Sources */,
+				903786EF174D2E45002B991F /* AEDAppDelegate.m in Sources */,
+				903786F8174D2E45002B991F /* AEDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		903786E7174D2E45002B991F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903786E8174D2E45002B991F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		903786F9174D2E45002B991F /* AEDViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903786FA174D2E45002B991F /* en */,
+			);
+			name = AEDViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		903786FC174D2E45002B991F /* AEDViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903786FD174D2E45002B991F /* en */,
+			);
+			name = AEDViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		903786FF174D2E45002B991F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90378700174D2E45002B991F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90378702174D2E45002B991F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "etch/etch-Prefix.pch";
+				INFOPLIST_FILE = "etch/etch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90378703174D2E45002B991F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "etch/etch-Prefix.pch";
+				INFOPLIST_FILE = "etch/etch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		903786D6174D2E45002B991F /* Build configuration list for PBXProject "etch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903786FF174D2E45002B991F /* Debug */,
+				90378700174D2E45002B991F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90378701174D2E45002B991F /* Build configuration list for PBXNativeTarget "etch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90378702174D2E45002B991F /* Debug */,
+				90378703174D2E45002B991F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 903786D3174D2E45002B991F /* Project object */;
+}
