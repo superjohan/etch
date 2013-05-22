@@ -9,6 +9,4 @@ If you have some ideas on how to extend this lil' app, go ahead and do a pull re
 
 -[johan](http://jukeboxbabe.com)
 
-[Twitter](https://twitter.com/suprjohan)
-[App.net](https://alpha.app.net/jkh)
-[Aero Deko](http://aerodeko.com)
+[Twitter](https://twitter.com/suprjohan) // [App.net](https://alpha.app.net/jkh) // [Aero Deko](http://aerodeko.com)
