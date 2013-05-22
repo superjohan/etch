@@ -7,23 +7,31 @@
 //
 
 #import "AEDViewController.h"
+#import "AEDEtchShapeView.h"
 
 @interface AEDViewController ()
-
+@property (nonatomic) AEDEtchShapeView *shapeView;
 @end
 
 @implementation AEDViewController
 
+#pragma mark - UIViewController
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+	self.view.backgroundColor = [UIColor whiteColor];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+	
+	self.shapeView = [[AEDEtchShapeView alloc] initWithFrame:self.view.bounds];
+	[self.shapeView setup];
+	[self.view addSubview:self.shapeView];
+	
+	[self.shapeView startAnimation];
 }
 
 @end

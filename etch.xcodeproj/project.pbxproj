@@ -19,6 +19,7 @@
 		903786F8174D2E45002B991F /* AEDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 903786F7174D2E45002B991F /* AEDViewController.m */; };
 		903786FB174D2E45002B991F /* AEDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903786F9174D2E45002B991F /* AEDViewController_iPhone.xib */; };
 		903786FE174D2E45002B991F /* AEDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903786FC174D2E45002B991F /* AEDViewController_iPad.xib */; };
+		90378706174D2E5F002B991F /* AEDEtchShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90378705174D2E5F002B991F /* AEDEtchShapeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		903786F7174D2E45002B991F /* AEDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEDViewController.m; sourceTree = "<group>"; };
 		903786FA174D2E45002B991F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AEDViewController_iPhone.xib; sourceTree = "<group>"; };
 		903786FD174D2E45002B991F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AEDViewController_iPad.xib; sourceTree = "<group>"; };
+		90378704174D2E5F002B991F /* AEDEtchShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEDEtchShapeView.h; sourceTree = "<group>"; };
+		90378705174D2E5F002B991F /* AEDEtchShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEDEtchShapeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				903786EE174D2E45002B991F /* AEDAppDelegate.m */,
 				903786F6174D2E45002B991F /* AEDViewController.h */,
 				903786F7174D2E45002B991F /* AEDViewController.m */,
+				90378704174D2E5F002B991F /* AEDEtchShapeView.h */,
+				90378705174D2E5F002B991F /* AEDEtchShapeView.m */,
 				903786F9174D2E45002B991F /* AEDViewController_iPhone.xib */,
 				903786FC174D2E45002B991F /* AEDViewController_iPad.xib */,
 				903786E5174D2E45002B991F /* Supporting Files */,
@@ -181,6 +186,7 @@
 				903786EB174D2E45002B991F /* main.m in Sources */,
 				903786EF174D2E45002B991F /* AEDAppDelegate.m in Sources */,
 				903786F8174D2E45002B991F /* AEDViewController.m in Sources */,
+				90378706174D2E5F002B991F /* AEDEtchShapeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
